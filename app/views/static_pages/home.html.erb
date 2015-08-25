@@ -1,2 +1,8 @@
-<h1>Home</h1>
-<p><img src="https://cdn.shopify.com/s/files/1/0366/5025/files/2chainz4_h_GIFSoup.com.gif?8089846857262126294" /> </p>
+<% provide(:title, "Home") %>
+
+    <h1><%= yield(:title) %></h1>
+    <p>
+      This is the home page for the
+      <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+      sample application.
+    </p>
