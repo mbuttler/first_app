@@ -3,10 +3,13 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.2'
-# Use sqlite3 as the database for Active Record
+# BOOOOOTSTRAPPPPPPPPPPPPPP
+gem 'bootstrap-sass', '3.2.0.2'
+# Use sqlite3 as the database for Active Record in development mode
 group :development do
 gem 'sqlite3'
 end
+# But on Heroku, we gotta use PG
 group :production do
 gem 'pg'
 gem 'rails_12factor'
