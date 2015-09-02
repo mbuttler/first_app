@@ -77,9 +77,9 @@ footer {
 	/* nesting SCSS */
 	a {
   color: #555;
+&:hover {
+  color: #ff0000;
 }
- a:hover {
-  color: #222;
 }
  small {
   float: left;
